@@ -1,0 +1,8 @@
+IDE: NetBeans
+
+First of all: BUILD the project in IDE!
+
+In cmd.exe:   cd C:\Users\Fedor\Documents\NetBeansProjects\PortScanner
+Finally:      java -classpath .\build\classes ru.ncedu.erin.ps.PortScanner 127.0.0.1 27014 27016
+
+To check open ports: netstat -a
